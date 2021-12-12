@@ -1,0 +1,81 @@
+/* Importing fonts */
+
+/* Importing font Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+/* importing font Permanent Marker */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+/* Modal Css */
+.ant-modal-body {
+	padding: 0;
+}
+
+.modal-container {
+	background-color: #282626;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 695px;
+	padding: 4% 2% 2% 2%;
+	position: relative;
+}
+
+.modal-container .modal-title {
+	font-family: 'Permanent Marker', cursive;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	text-align: center;
+	color: #ffffff;
+	margin-bottom: 1%;
+}
+
+.modal-container .modal-user-info {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.modal-container .modal-desc {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	text-align: center;
+	color: #ffffff;
+	margin-top: 4%;
+}
+
+.modal-container .modal-btn {
+	width: 230px;
+	height: 52px;
+	background: #c0ed38;
+	border-radius: 8px;
+
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	text-align: center;
+	color: #000000;
+	margin: 4% 0%;
+	border: 0;
+	cursor: pointer;
+}
+
+.modal-container .modal-icon {
+	height: 40px;
+}
+
+.modal-container .modal-close-icon {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: white;
+	cursor: pointer;
+}

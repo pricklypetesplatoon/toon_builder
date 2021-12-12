@@ -1,0 +1,10 @@
+{
+	"extends": "./tsconfig.build.json",
+	"compilerOptions": {
+		"baseUrl": "./",
+		"paths": {
+			"@toon-builder/common/*": ["common/src/*"],
+			"@toon-builder/frontend/*": ["customer/src/*"]
+		}
+	}
+}

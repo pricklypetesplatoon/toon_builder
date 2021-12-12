@@ -1,0 +1,27 @@
+{
+	"name": "toon-builder-project",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"private": true,
+	"workspaces": {
+		"packages": [
+			"backend",
+			"frontend",
+			"common"
+		]
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/solace-unearthed/toon_builder.git"
+	},
+	"author": "Nandhakumar Gunasekaran",
+	"license": "UNLICENSED",
+	"bugs": {
+		"url": "https://github.com/solace-unearthed/toon_builder/issues"
+	},
+	"homepage": "https://github.com/solace-unearthed/toon_builder#readme"
+}
